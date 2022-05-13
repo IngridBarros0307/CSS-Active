@@ -1,0 +1,50 @@
+body{
+    background-color:antiquewhite;
+}    
+header{
+    font-size: larger;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight:900;
+    color:#4F4F4F;
+    text-decoration-line:underline;
+    text-decoration-color:rgb(0, 0, 0);
+    text-decoration-thickness: 20%;
+    color:#1d1a1a;
+    width: 500px;
+    align-items:center;
+}
+section{
+    padding: 0px;
+    display: flex;
+    justify-content: space-around;
+}
+#img1{
+  background-image: url('../img/cortes_de_espinhos_e_rosas.jpg');
+  width:300px;
+  height:445px;
+  border:10px solid #ae00ff;
+  max-width: 500px;
+}
+#img1:active{
+    background-image: url('../img/cobiça.jpg');
+    width:300px;
+    height:500px;
+    border:10px solid #c331bc;
+    transform:scale(0.5);
+}
+#img2{
+    background-image: url('../img/corte_de_chamas_prateada.jpg');
+    width:300px;
+    height:500px;
+    border:10px solid #ff00aa;
+}
+#img2:active{
+    background-image: url('../img/cortes_de_gelo_e_estrelas.jpg');
+    width:300px;
+    height:500px;
+    border:10px solid #3140c3;
+    transform:scale(0.9);
+    border:10px solid #31c360;
+    transform:scale(0.5);
+}
